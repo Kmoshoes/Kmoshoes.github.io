@@ -149,6 +149,7 @@ button:hover{
 
 
 }
+
 .skills.aboutme{
     color: aliceblue;
     width: fit-content;
@@ -168,11 +169,21 @@ button:hover{
     margin-bottom: 50px;
 }
 
-
 .homepage h4{  
-    color: rgb(233, 128, 80);;
+    color: rgb(233, 128, 80);
     letter-spacing: 2px;
     font-size: 20px;
+}
+
+.contacts{
+        
+    height: 40%;
+    width: 30%;
+    width: fit-content;
+    height: fit-content;
+    color: #c09215;
+    font-weight: bold;
+
 }
 
 @media screen and (max-width:473px){
@@ -183,13 +194,13 @@ button:hover{
 
     }
     .homepage h3{
-        color: rgb(226, 138, 98);
+        color: rgb(187, 98, 57);
         font-size: 30px;
         margin-bottom: 5px;
 
     }
     .homepage h4{  
-        color: rgb(233, 128, 80);;
+        color: rgb(233, 128, 80);
         letter-spacing: 2px;
         font-size: 20px;
     }
@@ -212,4 +223,7 @@ button:hover{
     .aboutme img{
         display: none;
     }
+
+    
+    
 }
